@@ -18,7 +18,6 @@ describe('example to-do app', () => {
 
         cy.visit('https://mobilevikings.be/nl/offer/subscriptions/')
         cy.wait('@klantendienst') 
-            //Abonementen
     })
 
     it('reviews intercept', () => {
@@ -34,8 +33,5 @@ describe('example to-do app', () => {
         }).as('reviews')
 
         cy.visit('https://mobilevikings.be/nl/offer/subscriptions/')
-        cy.visit('https://www.kbc.be')
-
-            //Abonementen
     })
 })
