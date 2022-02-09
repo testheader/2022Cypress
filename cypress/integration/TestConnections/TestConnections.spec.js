@@ -27,7 +27,7 @@ describe('example to-do app', () => {
             "average_score": 3,
             "buckets": {"0": 445, "1": 449, "2": 533, "3": 854, "4": 4172, "5": 11521},
             "reviews": [
-                {"name": "Iñtërnâtiônàlizætiøn☃💪", "score": 1, "text": "Cypress", "date": "2022-01-16T00:00:00Z"},
+                {"name": "normale naam", "score": 1, "text": "Cypress", "date": "2022-01-16T00:00:00Z"},
                 {"name": "P.", "score": 5, "text": "Selenium?", "date": "2022-01-22T00:00:00Z"},
             ]}
         }).as('reviews')
